@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <div id="root">Anita</div>
+        <script>
+            /* 
+                object.member (document is the object and getElementById 
+                is member and . is member selection operator)  
+
+             */
+            document.getElementById("root").innerHTML = "Hello";
+
+            // variables are like bucket.
+
+     //       var var;                   //       Invalid variable name(Because we can not create variable name with reserved keyword)
+     //       var boolean = 50;          //       Invalid variable name(Because we can not create variable name with reserved keyword)
+
+            var x = 30;                  //       Declaration and Initialization
+            var y = 20;                  //       Declaration and Initialization
+     //     console.log(x);
+
+            let z;                       //       Declaration
+
+            /*
+
+             When you have two operator in any program it is called Expression.
+
+             */
+
+             //   Prescedence of Oerator  (+ have higher priority and = have lower priority)
+
+             //   x and y are operands. + and = are operators.
+
+            z = x + y;                  //   Expression (When we have two operator in any program statement it is called expression.)
+
+            console.log(z);
+
+            const a = 40;               //   Declaration and Initialization should be at single line
+            console.log(z+a);
+        </script>
+    </body>
+</html>
