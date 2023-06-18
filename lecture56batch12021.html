@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+
+        </script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <script>
+            // 1.  Function definition
+            //     Function name are always in camelCase.
+
+            function myFunctionA(x,y) {      // x and y are formal arguments.
+                // Function body
+                return(x+y);                //  Function may return values(int,float,double,string).
+            }
+
+            // 2.  Function calling
+
+           var result = myFunctionA(10,30);     //  40
+           console.log(result);
+
+
+           // When we call function within function it is called "Function as argument".
+
+           let r2 = myFunctionA(10,myFunctionA(10,30));     //  50
+
+           let r3 = myFunctionA(10,myFunctionA(10,myFunctionA(10,10)));   // Deep nested calling.
+
+           console.log(r2);
+
+           console.log(r3);
+        </script>
+    </body>
+</html>
