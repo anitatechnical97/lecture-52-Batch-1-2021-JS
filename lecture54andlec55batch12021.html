@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+
+        </style>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        <script>
+            //  Naming Convention in JS.
+            //  camelCase for variable and Function/Method.
+
+            var anitaDubey;
+            var raginiChaubey;
+
+            anitaDubey = 20;
+            raginiChaubey = 20;
+
+            console.log(anitaDubey + raginiChaubey);
+
+            var roshanisingh;
+            roshanisingh = 30;
+            console.log(roshanisingh);
+
+
+            // 1.   Function definition is one time process.
+            //  Function body
+
+            function myFunction(name) {         //  name is a formal Argument/Parameter
+                console.log('Hello '+name);
+                myFunctionA('Hello '+name);
+            }
+
+            // 2.   Function calling is many time process.
+
+            myFunction('Anita');                //  Anita is a Actual Argumet/Parameter
+
+
+            // (1) -  Number + Number (Then + operator will work as addition operator)
+              
+            //   20 + 20;
+
+            // (2) - string + string (Then + operator will work as concatenation operator)
+
+            //  'Hello'+'Anita';
+
+
+
+              // 1.   Function definition is one time process.
+              //      Function body
+
+            function myFunctionA(msg) {         //  msg is a formal Argument/Parameter
+                console.log(msg+' How Are You ?');
+                myFunctionB(10,50);             //  10,50 are Actual Argumet/Parameter
+            }
+
+            // 2.   Function calling is many time process.
+
+            myFunctionA("Hello");                //  Hello is a Actual Argumet/Parameter
+          //  myFunctionA("Anita");
+
+
+
+           // 1.   Function definition is one time process.
+              //      Function body
+
+              function myFunctionB(x,y) {         //  x,y are formal Argument/Parameter
+                console.log(x+y);
+            }
+
+            // 2.   Function calling is many time process.
+
+            myFunctionB("10 ",'20');                //  "10",'20' are Actual Argumet/Parameter
+        
+
+
+            const PI = 3.14;                // constant values are always fixed.Constant are always written in UPPERCASE.
+            PI = 4.5;
+            console.log(PI);
+
+
+        </script>
+    </body>
+</html>
